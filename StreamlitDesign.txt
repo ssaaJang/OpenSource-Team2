@@ -1,5 +1,13 @@
+#1
 https://docs.streamlit.io/
 
+#2
 https://www.youtube.com/watch?v=XACHCUduqh0
 
+#3
+중앙도서관 전자정보원 홈페이지 > 	O'Reilly for Higher Education > 웹메일로 가입 후
+
+Beginner's Guide to Streamlit with Python
+
+도서 참고 가능
 
