@@ -4,6 +4,9 @@ https://docs.streamlit.io/
 #2
 https://www.youtube.com/watch?v=XACHCUduqh0
 
+https://www.youtube.com/watch?v=Gr5Vuo7TCaE
+Streamlit으로 빠르게 웹앱 생성하기
+
 #3
 중앙도서관 전자정보원 홈페이지 > 	O'Reilly for Higher Education > 웹메일로 가입 후
 
