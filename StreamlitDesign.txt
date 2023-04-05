@@ -14,3 +14,6 @@ Beginner's Guide to Streamlit with Python
 
 도서 참고 가능
 
+#4
+https://youtu.be/BWfX-Ty-Am8
+윈도우 모듈 설치 에러 시 참고 가능
