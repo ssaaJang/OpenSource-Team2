@@ -17,3 +17,7 @@ Beginner's Guide to Streamlit with Python
 #4
 https://youtu.be/BWfX-Ty-Am8
 윈도우 모듈 설치 에러 시 참고 가능
+
+#5
+https://stackoverflow.com/questions/71640929/modulenotfounderror-no-module-named-numpy-random-bit-generator
+numpy관련 에러 참고용
