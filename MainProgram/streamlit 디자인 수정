@@ -45,7 +45,7 @@ try:
     input_button = st.button("확인")
     openai_answer = openai_completion(input_text)
     if input_button and input_text.strip() != "":
-            with st.spinner("로딩 중입니다**⌛️"): 
+            with st.spinner("**로딩 중입니다**⌛️"): 
                 st.success(openai_answer)            
     if input_text.strip() != "":
         st.markdown(openai_answer)
