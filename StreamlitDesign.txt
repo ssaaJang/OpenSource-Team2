@@ -4,6 +4,9 @@ https://docs.streamlit.io/
 #2
 https://www.youtube.com/watch?v=XACHCUduqh0
 
+https://www.youtube.com/watch?v=Gr5Vuo7TCaE
+Streamlit으로 빠르게 웹앱 생성하기
+
 #3
 중앙도서관 전자정보원 홈페이지 > 	O'Reilly for Higher Education > 웹메일로 가입 후
 
@@ -11,3 +14,10 @@ Beginner's Guide to Streamlit with Python
 
 도서 참고 가능
 
+#4
+https://youtu.be/BWfX-Ty-Am8
+윈도우 모듈 설치 에러 시 참고 가능
+
+#5
+https://stackoverflow.com/questions/71640929/modulenotfounderror-no-module-named-numpy-random-bit-generator
+numpy관련 에러 참고용
