@@ -1,0 +1,6 @@
+#1
+https://stackoverflow.com/questions/71640929/modulenotfounderror-no-module-named-numpy-random-bit-generator
+
+#2 Unlink of file [] failed. Should I try again?
+https://hajoung56.tistory.com/81
+
