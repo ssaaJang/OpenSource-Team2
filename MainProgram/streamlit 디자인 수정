@@ -6,7 +6,7 @@ import streamlit as st
 from openai.error import InvalidRequestError
 
 
-openai.api_key = 'apikey'
+openai.api_key = 'APIKEY'
 messages = []
 #chatGPT
 def openai_completionTurbo(prompt):
@@ -37,9 +37,11 @@ def openai_image(prompt):
     return image_url
 
 
-st.title("")
 
 #디자인 수정 중#
+st.header('opensource')
+st.header('openAI+DALL-E')
+
 try:
     input_text = st.text_area("**텍스트를 입력하세요**🙋",height=60)
     input_button = st.button("확인")
