@@ -39,8 +39,9 @@ def openai_image(prompt):
 
 
 #디자인 수정 중#
-st.header('opensource')
-st.header('openAI+DALL-E')
+#Header 텍스트#
+st.header('OpenSource Team2')
+st.header('ChatGPT+DALL-E')
 
 try:
     input_text = st.text_area("**텍스트를 입력하세요**🙋",height=60)
