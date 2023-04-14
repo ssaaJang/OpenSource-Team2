@@ -15,7 +15,6 @@ from konlpy.tag import Okt
 import re
 regex = r"[^a-zA-Z0-9 ]"
 
-#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
 def StopWord(sentence):
     subst = ""
     sentence = re.sub(regex, subst, sentence)
@@ -41,9 +40,8 @@ def StopWord(sentence):
 
 
 
-#openai.api_key = os.environ.get('OpenAI_API_Key')
-#openai.api_key = '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'
-openai.api_key = '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'
+
+openai.api_key = 'insert API KEY'
 messages = []
 #tt= []
 #chatGPT
