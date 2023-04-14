@@ -60,6 +60,20 @@ sview
 
 # In[ ]:
 
+import streamlit as st
 
+st.title('This is a title')
+
+st.header('This is a header')
+
+st.subheader('This is a subheader')
+
+st.markdown('_Markdown_')
+
+st.text('This is sample text')
+
+st.latex(r''' e^{i\pi} + 1 = 10 ''')
+
+st.caption('This is a caption')
 
 
