@@ -236,3 +236,16 @@ try:
 except InvalidRequestError as e:
     print('error!!!')
     st.markdown("It looks like this request may not follow DALL-E content policy.  \nAsk me the question again")
+    
+    
+    
+    
+    이재영 형태소를 분석하는  POS Tagging
+    
+    추가적인 코드 입니다. 출처 sumit Raj 파이썬으로 챗봇 만들기 저자 
+    
+    nlp = spacy.load('en') // spacy 영어 모델을 파이썬 오브젝트에 로드
+    doc = nlp(u'I am learning how to build chatbots') // 토큰을 위한 doc 오브젝트 생성
+    for token in doc:
+            print(token.text,token.pos_)   // 토큰과 형태소 결과를 출력
+    
