@@ -1,0 +1,25 @@
+
+
+chat gpt에 형태소를 분석하는 기능을 추가해 보는 접근을 해보았습니다. 
+
+형태소를 분석, 어간 추출, 개체 인식, 불용어, 의존 구문 분석 과 같은 자연어 처리 관련 프로세스들을 구현하는 코드입니다. 
+
+
+Step 1:  python3-m pip install -U virtualenv
+Step 2: virtualenv venv -p/usr/local/bin/python3 // 파이썬 3가 설치된 경로를 지정한다.
+Step 3: source venv/bin/activate
+Step 4: pip3 install -U spacy // spaCy버전 2.0.11 사용
+
+venv\Scripts\activate
+
+spaCy의 특징들은 다음과 같습니다.
+
+다른 NLP 라이브러리들이 제공할 수 없는 매우 광범위하고, 원하는 거의 모든 것들을 할 수 있는 API를 제공합니다.
+
+개체명 인식,
+
+28개 이상의 다국어 지원
+
+형태소 분석
+
+구문 중심의 문장 분할
