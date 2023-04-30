@@ -4,6 +4,29 @@ from PIL import Image
 import streamlit as st
 from openai.error import InvalidRequestError
 
+#background gif로 설정-오도희
+st.markdown(
+    """
+    <style>
+    .fullScreen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+       
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    f'<img class="fullScreen" src="insertgifURL">',
+    unsafe_allow_html=True
+)
+
+
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -91,7 +114,7 @@ def openai_image(prompt):
     image_url = response['data'][0]['url']
     return image_url
 
-
+#디자인일부수정-
 try:
     
 
