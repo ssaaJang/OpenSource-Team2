@@ -272,3 +272,19 @@ except InvalidRequestError as e:
     for token in doc:
             print(token.text,token.pos_)   // 토큰과 형태소 결과를 출력
     
+    
+    추가적으로 어휘 집합 tokenizers 라이브러리를 활용해 보았습니다.   <출처> // DO IT 자연어 처리 
+
+    1. 실습 환경을 구축
+    
+    !pip install ratsnlp
+    
+    2. 구글 드라이브 연동하기
+    
+    from google.colab import drive
+    drive.mount('/gdrive', force_remount=True)
+    
+    3. 말뭉치 내려받기 및 전처리
+    
+    from Korpora import Korpora 
+    nsmc = Korpora.load("nsmc", force_download=True) // 오픈소스 파이썬 패키지 코포라를 활용하여 BPE 수행 대상 말뭉치를 내려받고 전처리합니다. 
